@@ -1,0 +1,60 @@
+.heading{
+  height: 400px;
+  width: 100%;
+ background-image: url("https://i.ibb.co/fn3VHvj/first-website-header.png");
+  background-size: cover;
+  position: relative;
+}
+.heading div{
+   position: absolute;
+  bottom: 15px;
+  left: 400px;
+}
+
+.quote p{
+  position: relative;
+  right: 50px;
+  background: grey;
+  font-family: Abril Fatface;
+  text-align: center;
+ padding: 20px ;
+  color: white;
+  font-size: 40px;
+   width: 120%;
+  margin-top: 20px;
+}
+.quote p::before {
+  content: '”';
+  position: absolute;
+  left: 0px;
+   top: -20px;
+  font-size: 80px;
+  }
+p{
+  font-family: Josefin Sans;
+  color: grey;
+}
+main{
+margin: auto;
+  width: 50%;
+}
+li{
+  list-style-type: square;
+}
+hr{
+  background: black;
+  height: 5px;
+
+}
+b{
+  color: black;
+}
+.subtitle{
+  font-family: Merriweather;
+  font-sizesize: 15px;
+    font-style: italic;
+}
+ul{
+  font-family: Josefin Sans;
+  color: grey;
+}
